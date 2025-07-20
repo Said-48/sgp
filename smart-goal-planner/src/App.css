@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(26, 38, 97);
+  border: 1px solid;
+  color: #a1bfcb;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.goal-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.goal-form input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.goal-form button {
+  padding: 8px 16px;
+  background-color: rgb(53, 183, 105);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.goal-form button:hover {
+  background-color: #36b831;
+}
+
+.overview {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgb(246, 246, 236);
+}
+
+.goal-item {
+  border: 1px solid;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+
+}
+
+.goal-item.warning {
+  border-color: #ff9800;
+  background-color: #fff8e1;
+}
+
+.goal-item.overdue {
+  border-color: #f44336;
+  background-color: #fdecea;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.875em;
+}
+
+.status.completed {
+  background-color: #c8e6c9;
+  color: #256029;
+}
+
+.status.warning {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status.overdue {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 4px;
+}
+
+.goal-item input {
+  padding: 6px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 120px;
+}
+
+.goal-item button {
+  padding: 6px 12px;
+  margin-top: 6px;
+  margin-right: 8px;
+  background-color: #2a7ebf;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.goal-item button:hover {
+  background-color: #21689e;
+}
+
+.goal-item .delete-btn {
+  background-color: red;
+}
+
+.goal-item .delete-btn:hover {
+  background-color: #c51818;
+}
+
+.goal-item .edit-btn {
+  background-color: rgb(77, 182, 218);
+}
+
+.goal-item .edit-btn:hover {
+  background-color: #5191c1;
+}
